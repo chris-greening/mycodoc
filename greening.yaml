@@ -1,0 +1,20 @@
+# Project metadata
+project_name: Mycodoc
+project_slug: mycodoc
+author_name: Chris Greening
+email: chris@christophergreening.com
+github_username: chris-greening
+
+# Optional GitHub integration
+# To enable GitHub repo creation, set GITHUB_TOKEN in your environment.
+# This token must have repo scope.
+# For more info: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+# git_remote: git@github.com:Christopher Greening/my_greening_project.git
+push: true
+create_github_repo: true
+
+venv:
+   create: false         # Whether to create a virtual environment
+   python: python3      # Python interpreter to use (optional)
+
+google_analytics: G-3JVGPE1EDG
